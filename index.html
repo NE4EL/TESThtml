@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Email Template</title>
+
+<style>
+  /* Мобильная адаптация */
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 100% !important;
+      padding: 20px !important;
+    }
+    .hero-image img {
+      width: 100% !important;
+      height: auto !important;
+    }
+    .content {
+      padding: 10px !important;
+    }
+  }
+</style>
+
+</head>
+<body style="margin:0; padding:0; background-color:#f3f3f3; font-family: Arial, Helvetica, sans-serif;">
+
+<!-- PREHEADER (будет виден в почтовых клиентах) -->
+<div style="display:none; opacity:0; visibility:hidden; height:0; width:0; overflow:hidden;">
+  Ваш краткий текст-пре-хедер здесь.
+</div>
+
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#f3f3f3">
+  <tr>
+    <td align="center">
+
+      <!-- MAIN CONTAINER -->
+      <table width="600" cellpadding="0" cellspacing="0" class="container" bgcolor="#ffffff" style="border-radius:8px; overflow:hidden; margin-top:25px;">
+
+        <!-- HEADER -->
+        <tr>
+          <td style="padding:20px; background-color:#000000; color:#ffffff; font-size:20px; font-weight:bold; text-align:center;">
+            Ваша Компания
+          </td>
+        </tr>
+
+        <!-- HERO IMAGE -->
+        <tr class="hero-image">
+          <td>
+            <img src="your-image.jpg" width="600" style="display:block; width:600px; max-width:100%; border:none;"/>
+          </td>
+        </tr>
+
+        <!-- MAIN CONTENT -->
+        <tr>
+          <td class="content" style="padding:25px; font-size:16px; line-height:1.6; color:#000000;">
+
+            <h1 style="margin-top:0; color:#cc0000; font-size:24px;">
+              Заголовок письма
+            </h1>
+
+            <p>
+              Здесь разместим ваш основной текст письма.  
+              Форматирование выдержано в деловом стиле.  
+              Цвета — строго в вашей палитре (красный, чёрный, белый, синий).
+            </p>
+
+            <p>
+              При необходимости добавим подзаголовки, структурируем длинный текст, выделим ключевые моменты жирным или цветом.
+            </p>
+
+            <!-- RED CTA BUTTON -->
+            <table cellspacing="0" cellpadding="0" style="margin:20px 0;">
+              <tr>
+                <td align="center" bgcolor="#cc0000" style="border-radius:6px;">
+                  <a href="#" style="display:inline-block; padding:14px 28px; color:#ffffff; font-size:16px; text-decoration:none; font-weight:bold;">
+                    Перейти к действию
+                  </a>
+                </td>
+              </tr>
+            </table>
+
+            <h2 style="color:#0033cc; font-size:20px; margin-bottom:5px;">
+              Подзаголовок секции
+            </h2>
+
+            <p>
+              Здесь может быть дополнительная информация, блок преимуществ, описание услуги или предложения.
+            </p>
+
+            <ul style="padding-left:20px; margin-top:10px;">
+              <li>Пункт номер один</li>
+              <li>Пункт номер два</li>
+              <li>Пункт номер три</li>
+            </ul>
+
+          </td>
+        </tr>
+
+        <!-- FOOTER -->
+        <tr>
+          <td style="background-color:#000000; padding:20px; color:#ffffff; font-size:13px; text-align:center;">
+            © 2025 Ваша Компания<br/>
+            Вы получили это письмо, потому что подписались на рассылку.<br/>
+            <a href="#" style="color:#66aaff; text-decoration:none;">Отписаться от рассылки</a>
+          </td>
+        </tr>
+
+      </table>
+      <!-- END CONTAINER -->
+
+      <br><br>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
